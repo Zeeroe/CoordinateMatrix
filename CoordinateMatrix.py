@@ -88,10 +88,10 @@ for n in range(len(sides[3])):
     grid_add()
 
 # last row
-temp_grid.append(topleft)
+temp_grid.append(bottomleft)
 for s in sides[0]:
     temp_grid.append(s)
-temp_grid.append(topright)
+temp_grid.append(bottomright)
 grid_add()
 
 print(grid)
